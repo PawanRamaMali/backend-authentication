@@ -1,47 +1,3 @@
-<div class="row mt-5">
-  <div class="col-md-6 m-auto">
-    <div class="card card-body">
-      <h1 class="text-center mb-3">
-        <i class="fas fa-user-plus"></i> Register
-      </h1>
-      
-      <form  method="POST">
- 
-   
-        </div>
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            class="form-control"
-            placeholder="Create Password"
-            value="<%= typeof password != 'undefined' ? password : '' %>"
-          />
-        </div>
-        <div class="form-group">
-          <label for="password2">Confirm Password</label>
-          <input
-            type="password"
-            id="password2"
-            name="password2"
-            class="form-control"
-            placeholder="Confirm Password"
-            value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
-          />
-        </div>
-        <button type="submit" class="btn btn-primary btn-block">
-          Register
-        </button>
-      </form>
-      <p class="lead mt-4">Have An Account? <a href="/users/login">Login</a></p>
-    </div>
-  </div>
-</div>
-
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -377,7 +333,7 @@
 				<!-- Welcome Text -->
 				<div class="welcome-text">
 					<h3 style="font-size: 26px;">Let's create your account!</h3>
-					<span>Already have an account? <a href="pages-login.html">Log In!</a></span>
+					<span>Already have an account? <a href="/users/login">Log In!</a></span>
 				</div>
 
         <!-- Account Type -->
@@ -398,7 +354,7 @@
 					
 				<!-- Form -->
 
-				<% include ./partials/messages %>
+				<h2><% include ./partials/messages %></h2>
 				<form action="/users/register" method="POST" id="register-account-form">
 					
 					<div class="input-with-icon-left">
@@ -406,8 +362,7 @@
 						<input 
 						type="name"
 						id="name" 
-						class="input-text with-border" 
-						name="name" id="name-register" 
+						name="name" 
 						class="form-control"
 						placeholder="Enter Name"
 						value="<%= typeof name != 'undefined' ? name : '' %>"
@@ -418,8 +373,7 @@
 						<i class="icon-material-baseline-mail-outline"></i>
 						<input 
 						type="email"
-						class="input-text with-border" 
-						 
+						
 						required
 						id="email"
 						name="email"
@@ -431,17 +385,46 @@
 
 					<div class="input-with-icon-left" title="Should be at least 8 characters long" data-tippy-placement="bottom">
 						<i class="icon-material-outline-lock"></i>
-						<input type="password" class="input-text with-border" name="password-register" id="password-register" placeholder="Password" required/>
+						<input type="password" 
+						
+						required
+						type="password"
+						id="password"
+						name="password"
+						class="form-control"
+						placeholder="Create Password"
+						value="<%= typeof password != 'undefined' ? password : '' %>"
+					  	/>
 					</div>
 
 					<div class="input-with-icon-left">
 						<i class="icon-material-outline-lock"></i>
-						<input type="password" class="input-text with-border" name="password-repeat-register" id="password-repeat-register" placeholder="Repeat Password" required/>
+						<input type="password" 
+									
+						required
+						id="password2"
+						name="password2"
+						class="form-control"
+						placeholder="Confirm Password"
+						value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
+						/>
 					</div>
-				</form>
+				
 				
 				<!-- Button -->
-				<button class="button full-width button-sliding-icon ripple-effect margin-top-10" type="submit" form="login-form">Register <i class="icon-material-outline-arrow-right-alt"></i></button>
+					<button 
+						
+					class="button full-width button-sliding-icon ripple-effect margin-top-10" 
+					class="btn btn-primary btn-block"	
+					type="submit" 
+						>
+					Register 
+				<i class="icon-material-outline-arrow-right-alt">
+
+				</i></button>
+				</form>
+
+				
 				
 				<!-- Social Login -->
 				<div class="social-login-separator"><span>or</span></div>
