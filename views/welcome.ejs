@@ -1,12 +1,1270 @@
-<div class="row mt-5">
-  <div class="col-md-6 m-auto">
-    <div class="card card-body text-center">
-      <img src="/images/employ-logo.png" alt="employ.im" height=auto width=auto></i>
-      <p>Create an account or login</p>
-      <a href="/users/register" class="btn btn-primary btn-block mb-2"
-        >Register</a
-      >
-      <a href="/users/login" class="btn btn-secondary btn-block">Login</a>
-    </div>
-  </div>
+<!doctype html>
+<html lang="en">
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<title>Employ - Find the career you deserve.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Favicon
+================================================== -->
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/colors/purple.css">
+
+</head>
+<body>
+
+<!-- Wrapper -->
+<div id="wrapper" class="wrapper-with-transparent-header">
+
+<!-- Header Container
+================================================== -->
+<header id="header-container" class="fullwidth transparent-header">
+
+	<!-- Header -->
+	<div id="header">
+		<div class="container">
+			
+			<!-- Left Side Content -->
+			<div class="left-side">
+				
+				<!-- Logo -->
+				<div id="logo">
+					<a href="index.html"><img src="images/employ-logo2.png" data-sticky-logo="images/employ-logo.png" data-transparent-logo="images/employ-logo2.png" alt=""></a>
+				</div>
+
+				<!-- Main Navigation -->
+				<nav id="navigation">
+					<ul id="responsive">
+                        
+                        <!-- Find a Job Dropdown -->
+						<li><a href="jobs-list-layout-2.html">find a job</a>
+							<ul class="dropdown-nav">
+                                <li><a href="jobs-list-layout-2.html">Job Search</a></li>
+								<li><a href="browse-companies.html">Browse Companies</a></li>
+							</ul>
+						</li>
+                        
+                        <!-- Candidate Dropdown -->
+                        <li><a href="#">candidates</a>
+							<ul class="dropdown-nav">
+                                <li><a href="dashboard-cv.html">My Employ CV</a></li>                                    
+								<li><a href="dashboard-manage-jobs.html">Dashboard</a>
+									<ul class="dropdown-nav">
+                                        <li><a href="dashboard-messages.html">Messages</a></li>
+								        <li><a href="dashboard-bookmarks.html">Bookmarks</a></li>
+									</ul>
+								</li>                            
+								<li><a href="dashboard-settings.html">Account Settings</a></li>
+							</ul>
+						</li>
+
+						<!-- Employer Dropdown -->
+                        <li><a href="#">employers</a>
+							<ul class="dropdown-nav">
+								<li><a href="dashboard-post-a-job.html">Post a Job</a></li>
+								<li><a href="dashboard-manage-jobs.html">Dashboard</a>
+									<ul class="dropdown-nav">
+                                        <li><a href="dashboard-manage-jobs.html">Manage Jobs</a></li>
+                                        <li><a href="dashboard-manage-candidates.html">Manage Candidates</a></li>
+                                        <li><a href="dashboard-messages.html">Messages</a></li>
+								        <li><a href="dashboard-bookmarks.html">Bookmarks</a></li>
+									</ul>
+								</li>
+                                <li><a href="pages-pricing-plans.html">Pricing Plans</a></li>
+								<li><a href="services.html">Services</a></li>	
+								<li><a href="dashboard-settings.html"> Account Settings</a></li>
+							</ul>
+						</li>
+
+						<!-- Additional Pages Dropdown -->
+                        <li><a href="#">pages</a>
+							<ul class="dropdown-nav">
+                <li><a href="pages-about.html">About</a></li>
+								<li><a href="pages-blog.html">Blog</a></li>
+								<li><a href="pages-contact.html">Contact</a></li>
+                <li><a href="/users/register">Register </a></li>
+                <li><a href="/users/login">Login </a></li>
+              
+              </ul>
+						</li>
+
+					</li>
+					<li><a href="/users/register">Register </a>
+						
+					</li>
+					<li><a href="/users/login">Login </a>
+					</li>
+
+					</ul>
+				</nav>
+				<div class="clearfix"></div>
+				<!-- Main Navigation / End -->
+				
+			</div>
+			<!-- Left Side Content / End -->
+
+
+			<!-- Right Side Content / End -->
+			<div class="right-side">
+
+				<!--  User Notifications -->
+				<div class="header-widget hide-on-mobile">
+					
+					<!-- Notifications -->
+					<div class="header-notifications">
+
+						<!-- Trigger -->
+						<div class="header-notifications-trigger">
+							<a href="#"><i class="icon-feather-bell"></i><span>4</span></a>
+						</div>
+
+						<!-- Dropdown -->
+						<div class="header-notifications-dropdown">
+
+							<div class="header-notifications-headline">
+								<h4>Notifications</h4>
+								<button class="mark-as-read ripple-effect-dark" title="Mark all as read" data-tippy-placement="left">
+									<i class="icon-feather-check-square"></i>
+								</button>
+							</div>
+
+							<div class="header-notifications-content">
+								<div class="header-notifications-scroll" data-simplebar>
+									<ul>
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-manage-candidates.html">
+												<span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+												<span class="notification-text">
+													<strong>Michael Shannah</strong> applied for a job <span class="color">Full Stack Software Engineer</span>
+												</span>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li>
+											<a href="dashboard-manage-bidders.html">
+												<span class="notification-icon"><i class=" icon-material-outline-gavel"></i></span>
+												<span class="notification-text">
+													<strong>Gilbert Allanis</strong> placed a bid on your <span class="color">iOS App Development</span> project
+												</span>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li>
+											<a href="dashboard-manage-jobs.html">
+												<span class="notification-icon"><i class="icon-material-outline-autorenew"></i></span>
+												<span class="notification-text">
+													Your job listing <span class="color">Full Stack PHP Developer</span> is expiring.
+												</span>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li>
+											<a href="dashboard-manage-candidates.html">
+												<span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+												<span class="notification-text">
+													<strong>Sindy Forrest</strong> applied for a job <span class="color">Full Stack Software Engineer</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+					
+					<!-- Messages -->
+					<div class="header-notifications">
+						<div class="header-notifications-trigger">
+							<a href="#"><i class="icon-feather-mail"></i><span>3</span></a>
+						</div>
+
+						<!-- Dropdown -->
+						<div class="header-notifications-dropdown">
+
+							<div class="header-notifications-headline">
+								<h4>Messages</h4>
+								<button class="mark-as-read ripple-effect-dark" title="Mark all as read" data-tippy-placement="left">
+									<i class="icon-feather-check-square"></i>
+								</button>
+							</div>
+
+							<div class="header-notifications-content">
+								<div class="header-notifications-scroll" data-simplebar>
+									<ul>
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-messages.html">
+												<span class="notification-avatar status-online"><img src="images/user-avatar-small-03.jpg" alt=""></span>
+												<div class="notification-text">
+													<strong>David Peterson</strong>
+													<p class="notification-msg-text">Thanks for reaching out. I'm quite busy right now on many...</p>
+													<span class="color">4 hours ago</span>
+												</div>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-messages.html">
+												<span class="notification-avatar status-offline"><img src="images/user-avatar-small-02.jpg" alt=""></span>
+												<div class="notification-text">
+													<strong>Sindy Forest</strong>
+													<p class="notification-msg-text">Hi Tom! Hate to break it to you, but I'm actually on vacation until...</p>
+													<span class="color">Yesterday</span>
+												</div>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-messages.html">
+												<span class="notification-avatar status-online"><img src="images/user-avatar-placeholder.png" alt=""></span>
+												<div class="notification-text">
+													<strong>Marcin Kowalski</strong>
+													<p class="notification-msg-text">I received payment. Thanks for cooperation!</p>
+													<span class="color">Yesterday</span>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="dashboard-messages.html" class="header-notifications-button ripple-effect button-sliding-icon">View All Messages<i class="icon-material-outline-arrow-right-alt"></i></a>
+						</div>
+					</div>
+
+				</div>
+				<!--  User Notifications / End -->
+
+				<!-- User Menu -->
+				<div class="header-widget">
+
+					<!-- Messages -->
+					<div class="header-notifications user-menu">
+						<div class="header-notifications-trigger">
+							<a href="#"><div class="user-avatar status-online"><img src="images/user-avatar-small-01.jpg" alt=""></div></a>
+						</div>
+
+						<!-- Dropdown -->
+						<div class="header-notifications-dropdown">
+
+							<!-- User Status -->
+							<div class="user-status">
+
+								<!-- User Name / Avatar -->
+								<div class="user-details">
+									<div class="user-avatar status-online"><img src="images/user-avatar-small-01.jpg" alt=""></div>
+									<div class="user-name">
+										Tom Smith <span>Candidate</span>
+									</div>
+								</div>
+								
+								<!-- User Status Switcher -->
+								<div class="status-switch" id="snackbar-user-status">
+									<label class="user-online current-status">Online</label>
+									<label class="user-invisible">Offline</label>
+									<!-- Status Indicator -->
+									<span class="status-indicator" aria-hidden="true"></span>
+								</div>	
+						</div>
+						
+						<ul class="user-menu-small-nav">
+							<li><a href="dashboard.html"><i class="icon-material-outline-dashboard"></i> Dashboard</a></li>
+							<li><a href="dashboard-settings.html"><i class="icon-material-outline-settings"></i> Settings</a></li>
+							<li><a href="index-logged-out.html"><i class="icon-material-outline-power-settings-new"></i> Logout</a></li>
+						</ul>
+
+						</div>
+					</div>
+
+				</div>
+				<!-- User Menu / End -->
+
+				<!-- Mobile Navigation Button -->
+				<span class="mmenu-trigger">
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</span>
+
+			</div>
+			<!-- Right Side Content / End -->
+
+		</div>
+	</div>
+	<!-- Header / End -->
+
+</header>
+<div class="clearfix"></div>
+<!-- Header Container / End -->
+
+
+
+<!-- Intro Banner
+================================================== -->
+<div class="intro-banner dark-overlay big-padding">
+	
+	<!-- Transparent Header Spacer -->
+	<div class="transparent-header-spacer"></div>
+
+	<div class="container">
+		
+		<!-- Intro Headline -->
+		<div class="row">
+
+            <!-- Isle of Man Iso Artwork -->
+            <div class="col-md-4">
+					<img src="images/grow.png" alt="Isle of Man Isometric">
+			</div>
+
+			<div class="col-md-8">
+				<div class="banner-headline-alt">
+					<h3>Find the career you deserve.</h3>
+					<span>Your Isle of Man job search starts and ends with us.</span>
+				</div>
+			
+		
+		
+		<!-- Search Bar -->
+		
+				<div class="intro-banner-search-form margin-top-95">
+                    
+				    <!-- Search Field -->
+					<div class="intro-search-field">
+						<label for ="intro-keywords" class="field-title ripple-effect">What job do you want?</label>
+						<input id="intro-keywords" type="text" placeholder="Job Title or Skills">
+					</div>
+                    
+                    <!-- Search Field -->
+					<div class="intro-search-field">
+                        <label for ="intro-keywords" class="field-title ripple-effect">What sector do you work in?</label>
+						<select class="selectpicker default" multiple data-selected-text-format="count" data-size="7" title="Industries" >
+							<option>Admin Support</option>
+							<option>Customer Service</option>
+							<option>Data Analytics</option>
+							<option>Design & Creative</option>
+							<option>Legal</option>
+							<option>Software Developing</option>
+							<option>IT & Networking</option>
+							<option>Writing</option>
+							<option>Translation</option>
+							<option>Sales & Marketing</option>
+						</select>
+					</div>
+
+					<!-- Button -->
+					<div class="intro-search-button">
+						<button class="button ripple-effect" onclick="window.location.href='jobs-list-layout-2.html'">Search</button>
+					</div>
+				
+			</div>
+		</div>
+
+		<!-- Stats -->
+		<div class="col-md-4"> </div>
+			<div class="col-md-8">
+				<ul class="intro-stats  hide-under-992px">
+					<li class="home-counter">
+						<strong class="counter">551</strong>
+						<span>Jobs Opportunities</span>
+					</li>
+					<li class="home-counter">
+						<strong class="counter">1,298</strong>
+						<span>Candidates Searching</span>
+					</li>
+					<li class="home-counter">
+						<button class="button button-sliding-icon ripple-effect" style="width: 280px; height: 55px; background-color: #F91C3D; font-size: 17px; font-weight: 500" onclick="window.location.href='jobs-list-layout-2.html'">Use my CV to Search!<i class="icon-material-outline-face"></i></button>
+					</li>
+
+				</ul>	
+		</div>
+			
+	</div>
+
+	</div>
+	
+	<!-- Video Container -->
+	<div class="video-container" data-background-image="images/home-video-background-poster.jpg">
+		<video loop autoplay muted>
+			<source src="images/home-bg-video.mp4" type="video/mp4">
+		</video>
+	</div>
+
 </div>
+
+<!-- Content
+================================================== -->
+
+<!-- Icon Boxes -->
+<div class="section padding-top-65 padding-bottom-40">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-xl-12">
+				<!-- Section Headline -->
+				<div class="section-headline margin-top-0 margin-bottom-35">
+					<h3>How Employ Works - Simple, Fast and Easy</h3>
+					<a href="pages-about.html" class="headline-link">Learn More</a>
+				</div>
+			</div>
+			
+			<div class="col-xl-4 col-md-4">
+				<!-- Icon Box -->
+				<div class="icon-box with-line">
+					<!-- Icon -->
+					<div class="icon-box-circle">
+						<div class="icon-box-circle-inner">
+							<i class="icon-line-awesome-search"></i>
+							<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
+						</div>
+					</div>
+					<h3>Browse Hundreds of Jobs</h3>
+					<p>Search, find and apply for jobs directly on your mobile device or desktop. Manage all of the jobs you have applied to from a convenience secure dashboard.</p>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-md-4">
+				<!-- Icon Box -->
+				<div class="icon-box with-line">
+					<!-- Icon -->
+					<div class="icon-box-circle">
+						<div class="icon-box-circle-inner">
+							<i class="icon-line-awesome-puzzle-piece"></i>
+							<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
+						</div>
+					</div>
+					<h3>Find Your Match</h3>
+					<p>Search, find and apply for jobs directly on your mobile device or desktop. Manage all of the jobs you have applied to from a convenience secure dashboard.</p>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-md-4">
+				<!-- Icon Box -->
+				<div class="icon-box">
+					<!-- Icon -->
+					<div class="icon-box-circle">
+						<div class="icon-box-circle-inner">
+							<i class=" icon-line-awesome-exchange"></i>
+							<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
+						</div>
+					</div>
+					<h3>Apply Directly</h3>
+					<p>Once you have found your matches, you can easily apply to the jobs that suit you best via the convenient web form and even submit your previously uploaded resume to save time.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- Icon Boxes / End -->
+    
+<!-- Featured Jobs -->
+<div class="section padding-top-40 padding-bottom-40">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+				
+				<!-- Section Headline -->
+				<div class="section-headline margin-top-0 margin-bottom-35">
+					<h3>Featured Jobs - The Island's Top Opportunities</h3>
+					<a href="jobs-list-layout-full-page-map.html" class="headline-link">Browse All Jobs</a>
+				</div>
+				
+				<!-- Jobs Container -->
+				<div class="listings-container compact-list-layout margin-top-35">
+					
+					<!-- Job Listing -->
+					<a href="single-job-page.html" class="job-listing with-apply-button">
+
+						<!-- Job Listing Details -->
+						<div class="job-listing-details">
+
+							<!-- Logo -->
+							<div class="job-listing-company-logo">
+								<img src="images/microgaming-logo.jpg" alt="">
+							</div>
+
+							<!-- Details -->
+							<div class="job-listing-description">
+								<h3 class="job-listing-title">Senior Software Engineer</h3>
+
+								<!-- Job Listing Footer -->
+								<div class="job-listing-footer">
+									<ul>
+										<li><i class="icon-material-outline-business"></i> Microgaming <div class="verified-badge" title="Verified Employer" data-tippy-placement="top"></div></li>
+										<li><i class="icon-material-outline-location-on"></i> Isle of Man</li>
+										<li><i class="icon-material-outline-business-center"></i> Full Time</li>
+										<li><i class="icon-material-outline-access-time"></i> 2 days ago</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- Apply Button -->
+							<span class="list-apply-button ripple-effect">Apply Now</span>
+						</div>
+					</a>	
+
+
+					<!-- Job Listing -->
+					<a href="single-job-page.html" class="job-listing with-apply-button">
+
+						<!-- Job Listing Details -->
+						<div class="job-listing-details">
+
+							<!-- Logo -->
+							<div class="job-listing-company-logo">
+								<img src="images/mpm-logo.png" alt="">
+							</div>
+
+							<!-- Details -->
+							<div class="job-listing-description">
+								<h3 class="job-listing-title">Junior Web Developer</h3>
+
+								<!-- Job Listing Footer -->
+								<div class="job-listing-footer">
+									<ul>
+										<li><i class="icon-material-outline-business"></i> Masterpixel Media</li>
+										<li><i class="icon-material-outline-location-on"></i> Isle of Man</li>
+										<li><i class="icon-material-outline-business-center"></i> Full Time</li>
+										<li><i class="icon-material-outline-access-time"></i> 2 days ago</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- Apply Button -->
+							<span class="list-apply-button ripple-effect">Apply Now</span>
+						</div>
+					</a>
+					<!-- Job Listing -->
+					<a href="mt-job-page.html" class="job-listing with-apply-button">
+
+						<!-- Job Listing Details -->
+						<div class="job-listing-details">
+
+							<!-- Logo -->
+							<div class="job-listing-company-logo">
+								<img src="images/manx-telecom/logo2.png" alt="">
+							</div>
+
+							<!-- Details -->
+							<div class="job-listing-description">
+								<h3 class="job-listing-title">Senior Development Engineer</h3>
+
+								<!-- Job Listing Footer -->
+								<div class="job-listing-footer">
+									<ul>
+										<li><i class="icon-material-outline-business"></i> Manx Telecom</li>
+										<li><i class="icon-material-outline-location-on"></i> Isle of Man</li>
+										<li><i class="icon-material-outline-business-center"></i> Full Time</li>
+										<li><i class="icon-material-outline-access-time"></i> 2 days ago</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- Apply Button -->
+							<span class="list-apply-button ripple-effect">Apply Now</span>
+						</div>
+					</a>
+					
+
+					<!-- Job Listing -->
+					<a href="single-job-page.html" class="job-listing with-apply-button">
+
+						<!-- Job Listing Details -->
+						<div class="job-listing-details">
+
+							<!-- Logo -->
+							<div class="job-listing-company-logo">
+								<img src="images/pwc-logo.png" alt="">
+							</div>
+
+							<!-- Details -->
+							<div class="job-listing-description">
+								<h3 class="job-listing-title">Trainee Accountant</h3>
+
+								<!-- Job Listing Footer -->
+								<div class="job-listing-footer">
+									<ul>
+										<li><i class="icon-material-outline-business"></i> PwC <div class="verified-badge" title="Verified Employer" data-tippy-placement="top"></div></li>
+										<li><i class="icon-material-outline-location-on"></i> Isle of Man</li>
+										<li><i class="icon-material-outline-business-center"></i> Full Time</li>
+										<li><i class="icon-material-outline-access-time"></i> 2 days ago</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- Apply Button -->
+							<span class="list-apply-button ripple-effect">Apply Now</span>
+						</div>
+					</a>
+
+					<!-- Job Listing -->
+					<a href="single-job-page.html" class="job-listing with-apply-button">
+
+						<!-- Job Listing Details -->
+						<div class="job-listing-details">
+
+							<!-- Logo -->
+							<div class="job-listing-company-logo">
+								<img src="images/utmost-logo.png" alt="">
+							</div>
+
+							<!-- Details -->
+							<div class="job-listing-description">
+								<h3 class="job-listing-title">Business Risk Manager</h3>
+
+								<!-- Job Listing Footer -->
+								<div class="job-listing-footer">
+									<ul>
+										<li><i class="icon-material-outline-business"></i> Utmost Wealth Solutions <div class="verified-badge" title="Verified Employer" data-tippy-placement="top"></div></li>
+										<li><i class="icon-material-outline-location-on"></i> Isle of Man</li>
+										<li><i class="icon-material-outline-business-center"></i> Full Time</li>
+										<li><i class="icon-material-outline-access-time"></i> 2 days ago</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- Apply Button -->
+							<span class="list-apply-button ripple-effect">Apply Now</span>
+						</div>
+					</a>
+
+				</div>
+				<!-- Jobs Container / End -->
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Featured Jobs / End -->
+	
+<!-- Featured Employers Carousel -->	 
+	<div class="section padding-top-45 padding-bottom-45">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+				
+				<!-- Section Headline -->
+				<div class="section-headline margin-top-0 margin-bottom-35">
+					<h3>Featured Employers - Work for the Island's Best</h3>
+					<a href="jobs-list-layout-full-page-map.html" class="headline-link">View All Featured Employers</a>
+				</div>
+				
+				<div class="col-md-12">
+					<div class="logo-carousel">
+						
+						<div class="carousel-item">
+							<a href="single-company-profile.html" target="_blank" title="Microgaming"><img src="images/partner-logos/mg-partner.jpg" alt=""></a>
+						</div>
+						
+						<div class="carousel-item">
+							<a href="http://acmelogos.com/" target="_blank" title="Equiom"><img src="images/partner-logos/equiom-patner.png" alt=""></a>
+						</div>
+						
+						<div class="carousel-item">
+							<a href="mt-company-profile.html" target="_blank" title="Manx Telecom"><img src="images/partner-logos/mt-partner.jpg" alt=""></a>
+						</div>
+						
+						<div class="carousel-item">
+							<a href="http://acmelogos.com/" target="_blank" title="PwC"><img src="images/partner-logos/pwc-partner.png" alt=""></a>
+						</div>
+						
+						<div class="carousel-item">
+							<a href="http://acmelogos.com/" target="_blank" title="The Sefton Group"><img src="images/partner-logos/sefton-partner.jpg" alt=""></a>
+						</div>
+
+						<div class="carousel-item">
+							<a href="http://acmelogos.com/" target="_blank" title="Utmost Weath Solutions"><img src="images/partner-logos/utmost-partner.gif" alt=""></a>
+						</div>
+						
+						<div class="carousel-item">
+							<a href="http://acmelogos.com/" target="_blank" title="The Stars Group"><img src="images/partner-logos/tsg-partner.png" alt=""></a>
+						</div>
+						
+						<div class="carousel-item">
+							<a href="http://acmelogos.com/" target="_blank" title="Plan.com"><img src="images/partner-logos/plan-partner.png" alt=""></a>
+						</div>
+
+						<div class="carousel-item">
+							<a href="http://acmelogos.com/" target="_blank" title="Derivco"><img src="images/partner-logos/derivco-partner.jpg" alt=""></a>
+						</div>			
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Featured Employers Carousel End -->	
+    
+    
+<!-- Popular Job Categories -->
+<div class="section margin-top-40 margin-bottom-65">
+	<div class="container">
+		<div class="row">
+
+			<!-- Section Headline -->
+			<div class="col-xl-12">
+				<div class="section-headline margin-top-0 margin-bottom-35">
+					<h3>Popular Categories</h3>
+					<a href="jobs-list-layout-full-page-map.html" class="headline-link">Search Job Categories</a>
+				</div>
+			</div>
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-list-layout-1.html" class="photo-box small" data-background-image="images/popular-industries/webdev.jpg">
+					<div class="photo-box-content">
+						<h3>Web/Software Development</h3>
+						<span>37</span>
+					</div>
+				</a>
+			</div>
+			
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-list-layout-full-page-map.html" class="photo-box small" data-background-image="images/popular-industries/egaming.jpg">
+					<div class="photo-box-content">
+						<h3>e-Gaming</h3>
+						<span>44</span>
+					</div>
+				</a>
+			</div>
+			
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-grid-layout-full-page.html" class="photo-box small" data-background-image="images/popular-industries/accountant.jpg">
+					<div class="photo-box-content">
+						<h3>Accounting/Finance</h3>
+						<span>94</span>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-list-layout-2.html" class="photo-box small" data-background-image="images/popular-industries/retail.jpg">
+					<div class="photo-box-content">
+						<h3>Retail</h3>
+						<span>27</span>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-list-layout-1.html" class="photo-box small" data-background-image="images/popular-industries/hospitality.jpg">
+					<div class="photo-box-content">
+						<h3>Hospitality</h3>
+						<span>63</span>
+					</div>
+				</a>
+			</div>
+			
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-list-layout-full-page-map.html" class="photo-box small" data-background-image="images/popular-industries/healthcare.jpg">
+					<div class="photo-box-content">
+						<h3>Healthcare</h3>
+						<span>22</span>
+					</div>
+				</a>
+			</div>
+			
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-grid-layout-full-page.html" class="photo-box small" data-background-image="images/popular-industries/legal.jpg">
+					<div class="photo-box-content">
+						<h3>Legal</h3>
+						<span>19</span>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-list-layout-2.html" class="photo-box small" data-background-image="images/popular-industries/marketing.jpg">
+					<div class="photo-box-content">
+						<h3>Marketing/Advertising</h3>
+						<span>41</span>
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- Popular Categories End -->
+
+<!-- Photo Section -->
+<div class="photo-section" data-background-image="images/home-cta.jpg">
+
+	<!-- Infobox -->
+	<div class="text-content white-font">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-6 col-md-8 col-sm-12">
+					<h2>Work for the best or hire the best. <br> Isle of Man jobs made easy.</h2>
+					<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation is on the runway towards.</p>
+                    <p>Learn more about how Employ works for you:</p>
+					<a href="pages-pricing-plans.html" class="button button-sliding-icon ripple-effect big margin-top-10" style="margin-right: 20px">For Candidates <i class="icon-material-outline-arrow-right-alt"></i></a>
+                    <a href="pages-pricing-plans.html" class="button button-sliding-icon ripple-effect big margin-top-10">For Employers <i class="icon-material-outline-arrow-right-alt"></i></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Infobox / End -->
+
+</div>
+<!-- Photo Section / End -->
+
+
+<!-- Recent Blog Posts -->
+<div class="section padding-top-65 padding-bottom-50">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+				
+				<!-- Section Headline -->
+				<div class="section-headline margin-top-0 margin-bottom-45">
+					<h3>Hot off the Press</h3>
+					<a href="pages-blog.html" class="headline-link">View Blog</a>
+				</div>
+
+				<div class="row">
+					<!-- Blog Post Item -->
+					<div class="col-xl-4">
+						<a href="pages-blog-post.html" class="blog-compact-item-container">
+							<div class="blog-compact-item">
+								<img src="images/blog-posts/post1.jpg" alt="">
+								<span class="blog-item-tag">Living</span>
+								<div class="blog-compact-item-content">
+									<ul class="blog-post-tags">
+										<li>17 July 2019</li>
+									</ul>
+									<h3>Isle of Man ranked 'best place to live for expats' in the British Isles</h3>
+									<p>An annual survey conducted by HSBC has ranked the Isle of Man as the best place to live in the British Isles, and 12th best in the world...</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- Blog post Item / End -->
+
+					<!-- Blog Post Item -->
+					<div class="col-xl-4">
+						<a href="pages-blog-post.html" class="blog-compact-item-container">
+							<div class="blog-compact-item">
+								<img src="images/blog-posts/post2.png" alt="">
+								<span class="blog-item-tag">Moving</span>
+								<div class="blog-compact-item-content">
+									<ul class="blog-post-tags">
+										<li>29 July 2019</li>
+									</ul>
+									<h3>Relocation incentive for skilled workers and graduates welcomed</h3>
+									<p>Minister Cannan announced a National Insurance Holiday Scheme which comes into effect this year and aims to attract new working residents to the Island...</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- Blog post Item / End -->
+
+					<!-- Blog Post Item -->
+					<div class="col-xl-4">
+						<a href="pages-blog-post.html" class="blog-compact-item-container">
+							<div class="blog-compact-item">
+								<img src="images/blog-posts/post3.jpg" alt="">
+								<span class="blog-item-tag">Living</span>
+								<div class="blog-compact-item-content">
+									<ul class="blog-post-tags">
+										<li>10 June 2019</li>
+									</ul>
+									<h3>7.4 per cent increase in GDP</h3>
+									<p>The Isle of Man Government's National Income Report has indicated a 7.4% increase in Gross Domestic Product for the 2016/17 financial year.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- Blog post Item / End -->
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Recent Blog Posts / End -->
+
+<!--
+	<div class="fullwidth-carousel-container margin-top-20">
+		<div class="testimonial-carousel testimonials">
+
+			<div class="fw-carousel-review">
+				<div class="testimonial-box">
+					<div class="testimonial-avatar">
+						<img src="images/user-avatar-small-02.jpg" alt="">
+					</div>
+					<div class="testimonial-author">
+						<h4>Sindy Forest</h4>
+						 <span>Candidate</span>
+					</div>
+					<div class="testimonial">Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</div>
+				</div>
+			</div>
+
+			<div class="fw-carousel-review">
+				<div class="testimonial-box">
+					<div class="testimonial-avatar">
+						<img src="images/user-avatar-small-01.jpg" alt="">
+					</div>
+					<div class="testimonial-author">
+						<h4>Tom Smith</h4>
+						 <span>Candidate</span>
+					</div>
+					<div class="testimonial">Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art.</div>
+				</div>
+			</div>
+
+			<div class="fw-carousel-review">
+				<div class="testimonial-box">
+					<div class="testimonial-avatar">
+						<img src="images/user-avatar-placeholder.png" alt="">
+					</div>
+					<div class="testimonial-author">
+						<h4>Sebastiano Piccio</h4>
+						 <span>Employer</span>
+					</div>
+					<div class="testimonial">Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art.</div>
+				</div>
+			</div>
+
+			<div class="fw-carousel-review">
+				<div class="testimonial-box">
+					<div class="testimonial-avatar">
+						<img src="images/user-avatar-small-03.jpg" alt="">
+					</div>
+					<div class="testimonial-author">
+						<h4>David Peterson</h4>
+						 <span>Candidate</span>
+					</div>
+					<div class="testimonial">Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable sources.</div>
+				</div>
+			</div>
+
+			<div class="fw-carousel-review">
+				<div class="testimonial-box">
+					<div class="testimonial-avatar">
+						<img src="images/user-avatar-placeholder.png" alt="">
+					</div>
+					<div class="testimonial-author">
+						<h4>Marcin Kowalski</h4>
+						 <span>Candidate</span>
+					</div>
+					<div class="testimonial">Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+-->    
+    
+
+<!--
+	<div class="section padding-top-70 padding-bottom-75">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-xl-12">
+				<div class="counters-container">
+					
+					<div class="single-counter">
+						<i class="icon-line-awesome-suitcase"></i>
+						<div class="counter-inner">
+							<h3><span class="counter">1,586</span></h3>
+							<span class="counter-title">Jobs Posted</span>
+						</div>
+					</div>
+
+					<div class="single-counter">
+						<i class="icon-line-awesome-legal"></i>
+						<div class="counter-inner">
+							<h3><span class="counter">3,543</span></h3>
+							<span class="counter-title">Tasks Posted</span>
+						</div>
+					</div>
+
+					<div class="single-counter">
+						<i class="icon-line-awesome-user"></i>
+						<div class="counter-inner">
+							<h3><span class="counter">2,413</span></h3>
+							<span class="counter-title">Active Members</span>
+						</div>
+					</div>
+
+					<div class="single-counter">
+						<i class="icon-line-awesome-trophy"></i>
+						<div class="counter-inner">
+							<h3><span class="counter">99</span>%</h3>
+							<span class="counter-title">Satisfaction Rate</span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Footer
+================================================== -->
+<div id="footer">
+	
+	<!-- Footer Top Section -->
+	<div class="footer-top-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+
+					<!-- Footer Rows Container -->
+					<div class="footer-rows-container">
+						
+						<!-- Left Side -->
+						<div class="footer-rows-left">
+							<div class="footer-row">
+								<div class="footer-row-inner footer-logo">
+									<img src="images/employ-logo2.png" alt="">
+								</div>
+							</div>
+						</div>
+						
+						<!-- Right Side -->
+						<div class="footer-rows-right">
+
+							<!-- Social Icons -->
+							<div class="footer-row">
+								<div class="footer-row-inner">
+									<ul class="footer-social-links">
+										<li>
+											<a href="#" title="Facebook" data-tippy-placement="bottom" data-tippy-theme="light">
+												<i class="icon-brand-facebook-f"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#" title="Twitter" data-tippy-placement="bottom" data-tippy-theme="light">
+												<i class="icon-brand-twitter"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#" title="Google Plus" data-tippy-placement="bottom" data-tippy-theme="light">
+												<i class="icon-brand-google-plus-g"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#" title="LinkedIn" data-tippy-placement="bottom" data-tippy-theme="light">
+												<i class="icon-brand-linkedin-in"></i>
+											</a>
+										</li>
+									</ul>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							
+							<!-- Language Switcher -->
+							<div class="footer-row">
+								<div class="footer-row-inner">
+									<select class="selectpicker language-switcher" data-selected-text-format="count" data-size="5">
+										<option selected>English</option>
+										<option>Français</option>
+										<option>Español</option>
+										<option>Deutsch</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- Footer Rows Container / End -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Top Section / End -->
+
+	<!-- Footer Middle Section -->
+	<div class="footer-middle-section">
+		<div class="container">
+			<div class="row">
+
+				<!-- Links -->
+				<div class="col-xl-2 col-lg-2 col-md-3">
+					<div class="footer-links">
+						<h3>For Candidates</h3>
+						<ul>
+							<li><a href="#"><span>Browse Jobs</span></a></li>
+							<li><a href="#"><span>Add Resume</span></a></li>
+							<li><a href="#"><span>Job Alerts</span></a></li>
+							<li><a href="#"><span>My Bookmarks</span></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Links -->
+				<div class="col-xl-2 col-lg-2 col-md-3">
+					<div class="footer-links">
+						<h3>For Employers</h3>
+						<ul>
+							<li><a href="#"><span>Browse Candidates</span></a></li>
+							<li><a href="#"><span>Post a Job</span></a></li>
+							<li><a href="#"><span>Post a Task</span></a></li>
+							<li><a href="#"><span>Plans & Pricing</span></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Links -->
+				<div class="col-xl-2 col-lg-2 col-md-3">
+					<div class="footer-links">
+						<h3>Helpful Links</h3>
+						<ul>
+							<li><a href="#"><span>Contact</span></a></li>
+							<li><a href="#"><span>Privacy Policy</span></a></li>
+							<li><a href="#"><span>Terms of Use</span></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Links -->
+				<div class="col-xl-2 col-lg-2 col-md-3">
+					<div class="footer-links">
+						<h3>Account</h3>
+						<ul>
+							<li><a href="#"><span>Log In</span></a></li>
+							<li><a href="#"><span>My Account</span></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Newsletter -->
+				<div class="col-xl-4 col-lg-4 col-md-12">
+					<h3><i class="icon-feather-mail"></i> Sign Up For a Newsletter</h3>
+					<p>Weekly breaking news, analysis and cutting edge advices on job searching.</p>
+					<form action="#" method="get" class="newsletter">
+						<input type="text" name="fname" placeholder="Enter your email address">
+						<button type="submit"><i class="icon-feather-arrow-right"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Middle Section / End -->
+	
+	<!-- Footer Copyrights -->
+	<div class="footer-bottom-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					© 2019 <strong>Employ</strong>. All Rights Reserved.
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Copyrights / End -->
+
+</div>
+<!-- Footer / End -->
+
+</div>
+<!-- Wrapper / End -->
+
+
+<!-- Scripts
+================================================== -->
+    
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/6.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>    
+    
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.min.js"></script>
+<script src="js/mmenu.min.js"></script>
+<script src="js/tippy.all.min.js"></script>
+<script src="js/simplebar.min.js"></script>
+<script src="js/bootstrap-slider.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/snackbar.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/counterup.min.js"></script>
+<script src="js/magnific-popup.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/custom.js"></script>
+
+<!-- Snackbar // documentation: https://www.polonel.com/snackbar/ -->
+<script>
+// Snackbar for user status switcher
+$('#snackbar-user-status label').click(function() { 
+	Snackbar.show({
+		text: 'Your status has been changed!',
+		pos: 'bottom-center',
+		showAction: false,
+		actionText: "Dismiss",
+		duration: 3000,
+		textColor: '#fff',
+		backgroundColor: '#383838'
+	}); 
+}); 
+</script>
+
+
+<!-- Google Autocomplete -->
+<script>
+	function initAutocomplete() {
+		 var options = {
+		  types: ['(cities)'],
+		  // componentRestrictions: {country: "us"}
+		 };
+
+		 var input = document.getElementById('autocomplete-input');
+		 var autocomplete = new google.maps.places.Autocomplete(input, options);
+	}
+
+	// Autocomplete adjustment for homepage
+	if ($('.intro-banner-search-form')[0]) {
+	    setTimeout(function(){ 
+	        $(".pac-container").prependTo(".intro-search-field.with-autocomplete");
+	    }, 300);
+	}
+
+</script>
+
+<!-- Google API -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g&libraries=places&callback=initAutocomplete"></script>
+    
+<!-- Tidio Chat Script -->
+<script src="//code.tidio.co/xl4i8lr4bufyhnsbbwdqvcyiwfmp6upi.js"></script>
+
+</body>
+</html>
