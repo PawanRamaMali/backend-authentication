@@ -60,4 +60,7 @@ app.use('/users', require('./routes/users.js'));
 const PORT = process.env.PORT || 5000;
 app.use( express.static( "public" ) );
 
-app.listen(PORT, console.log(`Server started on port ${PORT}`));
+
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
